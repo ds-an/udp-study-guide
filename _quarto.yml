@@ -11,6 +11,10 @@ website:
       - overview.qmd
       - understanding-udp.qmd
       - ai-driven-dev.qmd
+      - ethics-security-governance.qmd
+      - skills.qmd
+      - methodologies.qmd
+      - sdlc.qmd
 
 format:
   html:
