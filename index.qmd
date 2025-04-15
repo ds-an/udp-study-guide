@@ -2,6 +2,10 @@
 title: "Study Guide for UDPs"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+1. Overview: [Unified Development Platforms in Modern Software Development](overview.qmd)
+2. Part 1: [Understanding Unified Development Platforms (UDPs)](understanding-udp.qmd)
+3. Part 2: [The Role of UDPs in AI-Driven Development](ai-driven-dev.qmd)
+4. Part 3: [Ethics, Security, and Governance in UDPs](ethics-security-governance.qmd)
+4. Part 4: [Technical and Soft Skills for UDP Mastery](skills.qmd)
+4. Part 5: [Methodologies: Agile, DevOps, and AI-Driven Development Practices](methodologies.qmd)
+4. Part 6: [SDLC Integration: How UDPs Enhance Requirements Gathering, Deployment, and Monitoring](sdlc.qmd)
