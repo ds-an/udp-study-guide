@@ -10,7 +10,6 @@ book:
   date: "4/16/2025"
   chapters:
     - index.qmd
-    - overview.qmd
     - understanding-udp.qmd
     - ai-driven-dev.qmd
     - ethics-security-governance.qmd
@@ -20,8 +19,11 @@ book:
   appendices:
     - summary.qmd
     - references.qmd
+  page-navigation: true
 
 bibliography: references.bib
+
+number-depth: 0
 
 format:
   html:

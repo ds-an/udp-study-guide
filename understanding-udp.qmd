@@ -1,8 +1,4 @@
----
-title: "Understanding Unified Development Platforms"
----
-
-## **Part 1: Understanding Unified Development Platforms (UDPs)**  
+## **Understanding Unified Development Platforms (UDPs)**  
 **Core Principles, Components, and Industry Applications**  
 
 ### **Introduction**  
@@ -63,4 +59,4 @@ A UDP’s architecture comprises four interconnected layers:
 3. **Azure DevOps Training**: [Microsoft Learn Module](https://learn.microsoft.com/en-us/azure/devops/)  
 4. **Video Lecture**: [CI/CD Pipelines Explained](https://www.youtube.com/watch?v=scEDHsr3APg)  
 
-**Next**: [Part 2 – AI Integration and Ethical Considerations in UDPs](ai-driven-dev.qmd)
+<!-- **Next**: [Part 2 – AI Integration and Ethical Considerations in UDPs](ai-driven-dev.qmd) -->
