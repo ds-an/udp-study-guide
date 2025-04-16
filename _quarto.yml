@@ -1,28 +1,35 @@
 project:
-  type: website
+  type: book
 
-website:
-  title: "Study Guide for UDPs"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - overview.qmd
-      - understanding-udp.qmd
-      - ai-driven-dev.qmd
-      - ethics-security-governance.qmd
-      - skills.qmd
-      - methodologies.qmd
-      - sdlc.qmd
+book:
+  title: "unified-development-platforms"
+  author:
+    - "Andrey Malyukov"
+    - "Bogdan Zachepa"
+    - "Vladimir Keller"
+  date: "4/16/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - overview.qmd
+    - understanding-udp.qmd
+    - ai-driven-dev.qmd
+    - ethics-security-governance.qmd
+    - methodologies.qmd
+    - skills.qmd
+    - sdlc.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
 
 format:
   html:
     theme:
       - cosmo
       - brand
-    css: styles.css
-    toc: true
+  pdf:
+    documentclass: scrreprt
 
 
 
