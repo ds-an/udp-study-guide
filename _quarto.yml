@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "unified-development-platforms"
+  title: "Study Guide for UDPs"
   author:
     - "Andrey Malyukov"
     - "Bogdan Zachepa"
@@ -10,7 +10,6 @@ book:
   date: "4/16/2025"
   chapters:
     - index.qmd
-    - intro.qmd
     - overview.qmd
     - understanding-udp.qmd
     - ai-driven-dev.qmd
@@ -18,6 +17,7 @@ book:
     - methodologies.qmd
     - skills.qmd
     - sdlc.qmd
+  appendices:
     - summary.qmd
     - references.qmd
 
