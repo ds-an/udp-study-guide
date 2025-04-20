@@ -1,3 +1,7 @@
+```{r setup, include=FALSE}
+library(exams2forms)
+```
+
 ## **The Role of UDPs in AI-Driven Development**  
 **Accelerating Innovation, Collaboration, and Ethical AI Integration**  
 
@@ -42,10 +46,11 @@ Ethical risks in AI, such as bias and privacy violations, are mitigated through 
 - **Vendor Lock-In**: Proprietary platforms like **Salesforce** can limit flexibility compared to open-source alternatives.  
 
 ### **Quiz: Part 2**  
-1. How do CI/CD pipelines in UDPs accelerate AI development?  
-2. Explain the role of **MLflow** in ensuring ethical AI transparency.  
-3. What challenges did Philips HealthSuite address using a UDP?  
-4. Why is vendor lock-in a risk in AI-driven UDP adoption?  
+```{r}
+#| echo: false
+#| results: "asis"
+exams2forms(c("quizzes/part-2-1.Rmd", "quizzes/part-2-2.Rmd", "quizzes/part-2-3.Rmd", "quizzes/part-2-4.Rmd", "quizzes/part-2-5.Rmd", "quizzes/part-2-6.Rmd"))
+```
 
 ### **Further Study Resources**  
 1. **MLOps Tutorial**: [Kubeflow Pipelines Guide](https://www.kubeflow.org/docs/components/pipelines/)  

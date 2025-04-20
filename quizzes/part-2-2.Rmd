@@ -1,0 +1,24 @@
+Question
+========
+Where should vulnerability detection be implemented in UDP workflows?
+
+Answerlist
+----------
+* Post-deployment
+* During annual audits
+* In CI/CD pipelines
+* Only for production
+* After breaches occur
+* During sprint retrospectives
+* Before code commits
+
+Solution
+========
+Shift-left security embeds vulnerability detection early in CI/CD pipelines.
+
+Meta-information
+================
+exname: Shift-Left Security
+extype: schoice
+exsolution: 0010000
+exshuffle: 5

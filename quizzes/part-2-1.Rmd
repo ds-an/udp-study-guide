@@ -1,0 +1,24 @@
+Question
+========
+Which tool enables deployment across AWS, Azure and on-premises data centers?
+
+Answerlist
+----------
+* GitHub Codespaces
+* Google Anthos
+* Salesforce Einstein
+* Microsoft Teams
+* Datadog
+* MLflow
+* Jenkins
+
+Solution
+========
+Google Anthos provides multi-cloud and hybrid deployment capabilities.
+
+Meta-information
+================
+exname: Multi-Cloud Deployment
+extype: schoice
+exsolution: 0100000
+exshuffle: 5

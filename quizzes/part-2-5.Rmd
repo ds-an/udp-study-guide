@@ -1,0 +1,24 @@
+Question
+========
+Which tool manages end-to-end machine learning pipelines in UDPs?
+
+Answerlist
+----------
+* Terraform
+* Kubeflow
+* New Relic
+* Jira
+* GitHub Copilot
+* Snowflake
+* VS Code
+
+Solution
+========
+Kubeflow specializes in managing Kubernetes-based ML workflows.
+
+Meta-information
+================
+exname: MLOps Tools
+extype: schoice
+exsolution: 0100000
+exshuffle: 5

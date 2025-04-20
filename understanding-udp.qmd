@@ -53,12 +53,6 @@ A UDP’s architecture comprises four interconnected layers:
 
 ### **Quiz:**  
 
-```{r}
-#| echo: false
-#| results: "asis"
-exams2forms(c("quizzes/part1.Rmd"))
-```
-
 1. How many core principles define UDP architectures?
 
 `r exams2forms::forms_num(5)`

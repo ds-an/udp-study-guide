@@ -1,0 +1,24 @@
+Question
+========
+Which platform enables non-ML experts to build models via drag-and-drop interfaces?
+
+Answerlist
+----------
+* AWS Fargate
+* Google Vertex AI
+* Azure Repos
+* GitLab CI
+* Prometheus
+* Jaeger
+* SonarQube
+
+Solution
+========
+Google Vertex AI provides AutoML tools for users without machine learning expertise.
+
+Meta-information
+================
+exname: AI Democratization
+extype: schoice
+exsolution: 0100000
+exshuffle: 5
