@@ -30,6 +30,8 @@ format:
     theme:
       - cosmo
       - brand
+    css: webex.css
+    include-after-body: webex.js
   pdf:
     documentclass: scrreprt
 
