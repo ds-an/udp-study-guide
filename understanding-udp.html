@@ -165,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><strong>Introduction</strong></a></li>
   <li><a href="#core-principles-of-udps" id="toc-core-principles-of-udps" class="nav-link" data-scroll-target="#core-principles-of-udps"><strong>Core Principles of UDPs</strong></a></li>
   <li><a href="#architectural-components-of-udps" id="toc-architectural-components-of-udps" class="nav-link" data-scroll-target="#architectural-components-of-udps"><strong>Architectural Components of UDPs</strong></a></li>
-  <li><a href="#case-study-microsoft-azure-devops-in-enterprise-development" id="toc-case-study-microsoft-azure-devops-in-enterprise-development" class="nav-link" data-scroll-target="#case-study-microsoft-azure-devops-in-enterprise-development"><strong>Case Study: Microsoft Azure DevOps in Enterprise Development</strong></a></li>
+  <li><a href="#example-microsoft-azure-devops-in-enterprise-development" id="toc-example-microsoft-azure-devops-in-enterprise-development" class="nav-link" data-scroll-target="#example-microsoft-azure-devops-in-enterprise-development"><strong>Example: Microsoft Azure DevOps in Enterprise Development</strong></a></li>
   <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz"><strong>Quiz:</strong></a></li>
   <li><a href="#further-study-resources" id="toc-further-study-resources" class="nav-link" data-scroll-target="#further-study-resources"><strong>Further Study Resources</strong></a></li>
   </ul>
@@ -205,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Holistic Integration</strong><br>
 UDPs eliminate toolchain fragmentation by merging development, deployment, and operations into a single environment. For example, <strong>GitLab</strong> integrates Git repositories, CI/CD pipelines, and Kubernetes orchestration, reducing context-switching for developers. This integration minimizes technical debt and ensures consistency across teams.</p></li>
 <li><p><strong>Intelligent Automation</strong><br>
-AI and machine learning automate repetitive tasks such as code reviews, testing, and infrastructure provisioning. Tools like <strong>GitHub Copilot</strong> use OpenAI’s Codex to suggest code snippets, while <strong>AWS CodeGuru</strong> optimizes performance. Automation shifts developers from manual labor to strategic problem-solving.</p></li>
+AI and machine learning automate repetitive tasks such as code reviews, testing, and infrastructure provisioning. Tools like <strong>GitHub Copilot</strong> use OpenAI’s Codex to suggest code snippets, while <strong>AWS CodeGuru</strong> optimizes developer performance adn reviews code. Automation shifts developers from manual labor to strategic problem-solving.</p></li>
 <li><p><strong>Elastic Scalability</strong><br>
 UDPs support projects of any size through cloud-native architectures like serverless computing and containerization. <strong>Amazon EKS</strong> (Elastic Kubernetes Service), for instance, auto-scales applications to handle fluctuating workloads. Netflix leverages AWS’s UDP ecosystem to serve 250 million global users with zero-downtime deployments.</p></li>
 <li><p><strong>Cross-Functional Collaboration</strong><br>
@@ -228,17 +228,18 @@ MLOps tools like <strong>MLflow</strong> track machine learning experiments, whi
 Monitoring tools like <strong>New Relic</strong> provide real-time performance insights, and security scanners like <strong>Snyk</strong> embed shift-left practices to detect vulnerabilities early. Distributed tracing systems like <strong>Jaeger</strong> help diagnose latency issues in microservices.</p></li>
 </ol>
 </section>
-<section id="case-study-microsoft-azure-devops-in-enterprise-development" class="level3">
-<h3 class="anchored" data-anchor-id="case-study-microsoft-azure-devops-in-enterprise-development"><strong>Case Study: Microsoft Azure DevOps in Enterprise Development</strong></h3>
-<p><strong>Background</strong>: A global financial institution needed to modernize legacy systems while complying with GDPR and PCI-DSS regulations.</p>
+<section id="example-microsoft-azure-devops-in-enterprise-development" class="level3">
+<h3 class="anchored" data-anchor-id="example-microsoft-azure-devops-in-enterprise-development"><strong>Example: Microsoft Azure DevOps in Enterprise Development</strong></h3>
+<p><strong>Background</strong>: A hypothetical global financial institution needed to modernize legacy systems while complying with GDPR and PCI-DSS regulations.</p>
 <p><strong>Solution</strong>: The organization adopted <strong>Microsoft Azure DevOps</strong> to unify its SDLC. Key steps included:<br>
 - Using <strong>Azure Repos</strong> for Git-based version control with branch policies to enforce code reviews.<br>
 - Automating deployments via <strong>Azure Pipelines</strong>, integrating <strong>SonarQube</strong> for early vulnerability detection.<br>
 - Training teams on <strong>Azure Boards</strong> to align Agile sprints with compliance workflows.</p>
-<p><strong>Outcome</strong>: Deployment cycles shortened by 40%, and audit readiness improved through automated compliance dashboards.</p>
+<p><strong>Outcome</strong>: Deployment cycles can be shortened by 40%, and audit readiness can be improved through automated compliance dashboards.</p>
 </section>
 <section id="quiz" class="level3">
 <h3 class="anchored" data-anchor-id="quiz"><strong>Quiz:</strong></h3>
+<p>TODO: FIX THE ISSUE of first TRUE here and in the similar quizzes + the order numbers.</p>
 <ol type="1">
 <li>How many core principles define UDP architectures?</li>
 </ol>
@@ -247,10 +248,6 @@ Monitoring tools like <strong>New Relic</strong> provide real-time performance i
 <li>Which platform integrates Git repositories, CI/CD, and Kubernetes orchestration?</li>
 </ol>
 <p><select class="webex-select"><option value="blank"></option><option value="answer">GitLab</option><option value="">Terraform</option><option value="">MLflow</option><option value="">New Relic</option></select></p>
-<ol start="3" type="1">
-<li>AWS CodeGuru’s primary function is:</li>
-</ol>
-<p><select class="webex-select"><option value="blank"></option><option value="answer">Code optimization</option><option value="">Cloud provisioning</option><option value="">Data visualization</option><option value="">Network security</option></select></p>
 <ol start="4" type="1">
 <li>Vendor agnosticism primarily prevents:</li>
 </ol>
@@ -259,18 +256,10 @@ Monitoring tools like <strong>New Relic</strong> provide real-time performance i
 <li>The main purpose of Terraform is:</li>
 </ol>
 <p><select class="webex-select"><option value="blank"></option><option value="answer">Infrastructure as Code</option><option value="">ML model training</option><option value="">Performance monitoring</option><option value="">Code editing</option></select></p>
-<ol start="6" type="1">
-<li>Kubeflow specializes in managing workflows for:</li>
-</ol>
-<p><select class="webex-select"><option value="blank"></option><option value="answer">Kubernetes</option><option value="">AWS Lambda</option><option value="">Azure Functions</option><option value="">Google Cloud Run</option></select></p>
 <ol start="7" type="1">
 <li>Shift-left security means detecting vulnerabilities early (True/False)</li>
 </ol>
 <p><select class="webex-select"><option value="blank"></option><option value="answer">True</option><option value="">False</option></select></p>
-<ol start="8" type="1">
-<li>GitHub Codespaces is best described as a:</li>
-</ol>
-<p><select class="webex-select"><option value="blank"></option><option value="answer">Cloud IDE</option><option value="">ML platform</option><option value="">Data lake</option><option value="">Monitoring tool</option></select></p>
 <ol start="9" type="1">
 <li>Azure DevOps achieved what percentage reduction in deployment cycles?</li>
 </ol>

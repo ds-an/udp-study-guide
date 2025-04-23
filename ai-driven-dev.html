@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><strong>Introduction</strong></a></li>
   <li><a href="#core-concepts-udps-in-ai-driven-development" id="toc-core-concepts-udps-in-ai-driven-development" class="nav-link" data-scroll-target="#core-concepts-udps-in-ai-driven-development"><strong>Core Concepts: UDPs in AI-Driven Development</strong></a></li>
-  <li><a href="#case-study-philips-healthsuite-in-healthcare-ai" id="toc-case-study-philips-healthsuite-in-healthcare-ai" class="nav-link" data-scroll-target="#case-study-philips-healthsuite-in-healthcare-ai"><strong>Case Study: Philips HealthSuite in Healthcare AI</strong></a></li>
+  <li><a href="#example-launchable-for-ai-optimized-ci-test-execution" id="toc-example-launchable-for-ai-optimized-ci-test-execution" class="nav-link" data-scroll-target="#example-launchable-for-ai-optimized-ci-test-execution"><strong>Example: Launchable for AI-Optimized CI Test Execution</strong></a></li>
   <li><a href="#critical-analysis-opportunities-and-risks" id="toc-critical-analysis-opportunities-and-risks" class="nav-link" data-scroll-target="#critical-analysis-opportunities-and-risks"><strong>Critical Analysis: Opportunities and Risks</strong></a></li>
   <li><a href="#quiz-part-2" id="toc-quiz-part-2" class="nav-link" data-scroll-target="#quiz-part-2"><strong>Quiz: Part 2</strong></a></li>
   <li><a href="#further-study-resources" id="toc-further-study-resources" class="nav-link" data-scroll-target="#further-study-resources"><strong>Further Study Resources</strong></a></li>
@@ -212,21 +212,26 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="aiml-workflow-integration"><strong>3. AI/ML Workflow Integration</strong></h4>
 <p>Modern UDPs embed <strong>MLOps frameworks</strong> like <strong>Kubeflow</strong> and <strong>Azure Machine Learning</strong> to manage end-to-end ML pipelines. <strong>Google Vertex AI</strong> democratizes AI with drag-and-drop AutoML tools, enabling developers without ML expertise to build models. DataOps platforms like <strong>Snowflake</strong> synchronize data engineering with model training, ensuring reproducibility and scalability.</p>
 </section>
-<section id="ethical-ai-and-governance" class="level4">
-<h4 class="anchored" data-anchor-id="ethical-ai-and-governance"><strong>4. Ethical AI and Governance</strong></h4>
-<p>Ethical risks in AI, such as bias and privacy violations, are mitigated through tools like <strong>IBM AI Fairness 360</strong>, which integrates fairness metrics into CI/CD pipelines. Platforms like <strong>Salesforce</strong> automate GDPR compliance via data anonymization and consent management. Transparency is enforced through audit trails in <strong>MLflow</strong> and model cards documenting limitations.</p>
+<section id="governance" class="level4">
+<h4 class="anchored" data-anchor-id="governance"><strong>4. Governance</strong></h4>
+<p>Platforms like <strong>Salesforce</strong> automate GDPR compliance via data anonymization and consent management. Transparency is enforced through audit trails in <strong>MLflow</strong> and model cards documenting limitations.</p>
 </section>
 </section>
-<section id="case-study-philips-healthsuite-in-healthcare-ai" class="level3">
-<h3 class="anchored" data-anchor-id="case-study-philips-healthsuite-in-healthcare-ai"><strong>Case Study: Philips HealthSuite in Healthcare AI</strong></h3>
-<p><strong>Background</strong>: Philips aimed to improve stroke diagnosis times while ensuring HIPAA compliance and data security.</p>
-<p><strong>Solution</strong>:<br>
-- Deployed <strong>Philips HealthSuite</strong>, a UDP unifying IoT device data, electronic health records (EHRs), and AI diagnostics.<br>
-- Integrated <strong>TensorFlow</strong> models for real-time stroke detection, trained on anonymized patient data.<br>
-- Used <strong>AWS IoT Core</strong> and <strong>Azure Kubernetes Service (AKS)</strong> to manage edge-device communication and scalable deployments.</p>
-<p><strong>Outcome</strong>:<br>
-- Reduced diagnosis time by 30% through AI-driven analysis.<br>
-- Maintained HIPAA compliance via end-to-end encryption and automated audit logs.</p>
+<section id="example-launchable-for-ai-optimized-ci-test-execution" class="level3">
+<h3 class="anchored" data-anchor-id="example-launchable-for-ai-optimized-ci-test-execution"><strong>Example: Launchable for AI-Optimized CI Test Execution</strong></h3>
+<p><strong>Background</strong>: A mid-size tech company was experiencing long feedback loops in their CI/CD pipeline. Developers had to wait over 40 minutes for test suites to finish, which slowed down the release process and decreased morale.</p>
+<p><strong>Solution</strong>: They integrated Launchable, a startup offering AI-powered test selection for CI pipelines. Here’s how it worked:</p>
+<p>The system analyzed thousands of past test runs to learn patterns in test failures.</p>
+<p>For each new pull request, Launchable predicted which tests were most likely to fail.</p>
+<p>Only the top 20% of tests (most relevant) were run immediately. Full test suites were run overnight or pre-release.</p>
+<p><strong>Technologies Used</strong>:</p>
+<p>Machine Learning models trained on historical test run data.</p>
+<p>Integration with Jenkins, GitHub Actions, and CircleCI.</p>
+<p>APIs to plug into existing test orchestration tools.</p>
+<p><strong>Outcome</strong>:</p>
+<p>CI feedback time was reduced from 40 minutes to 8 minutes.</p>
+<p>Test reliability remained at 99%, even with partial runs.</p>
+<p>Developers started pushing code more often, increasing deploy frequency by 35%.</p>
 </section>
 <section id="critical-analysis-opportunities-and-risks" class="level3">
 <h3 class="anchored" data-anchor-id="critical-analysis-opportunities-and-risks"><strong>Critical Analysis: Opportunities and Risks</strong></h3>
@@ -237,26 +242,16 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Risks</strong>:<br>
 - <strong>Over-Automation</strong>: Over-reliance on AI code assistants (e.g., <strong>GitHub Copilot</strong>) risks eroding foundational coding skills.<br>
 - <strong>Ethical Debt</strong>: Rapid deployment without governance may entrench biases, as seen in <strong>Amazon’s 2018 recruiting tool</strong>.<br>
-- <strong>Vendor Lock-In</strong>: Proprietary platforms like <strong>Salesforce</strong> can limit flexibility compared to open-source alternatives.</p>
+- <strong>Vendor Lock-In</strong>: While UPDs tend to reduce the risk of vendor lock-in overall, proprietary platforms like <strong>Salesforce</strong> can limit flexibility compared to open-source alternatives.</p>
 </section>
 <section id="quiz-part-2" class="level3">
 <h3 class="anchored" data-anchor-id="quiz-part-2"><strong>Quiz: Part 2</strong></h3>
-<div class="webex-question">
-<div class="webex-check webex-box">
-<p>Which tool enables deployment across AWS, Azure and on-premises data centers?</p>
-<div id="radio_group_jofhhdmuuj" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_group_jofhhdmuuj" value=""><span>Salesforce Einstein</span></label><label><input type="radio" autocomplete="off" name="radio_group_jofhhdmuuj" value=""><span>MLflow</span></label><label><input type="radio" autocomplete="off" name="radio_group_jofhhdmuuj" value=""><span>Microsoft Teams</span></label><label><input type="radio" autocomplete="off" name="radio_group_jofhhdmuuj" value="answer"><span>Google Anthos</span></label><label><input type="radio" autocomplete="off" name="radio_group_jofhhdmuuj" value=""><span>Datadog</span></label>
-</div>
-</div>
-<div class="webex-solution">
-<p>Google Anthos provides multi-cloud and hybrid deployment capabilities.</p>
-</div>
-</div>
+<p>TODO: Fix the quizzes, those are for the last part.</p>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Where should vulnerability detection be implemented in UDP workflows?</p>
-<div id="radio_group_bllhsgvjyi" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_group_bllhsgvjyi" value=""><span>After breaches occur</span></label><label><input type="radio" autocomplete="off" name="radio_group_bllhsgvjyi" value=""><span>During sprint retrospectives</span></label><label><input type="radio" autocomplete="off" name="radio_group_bllhsgvjyi" value="answer"><span>In CI/CD pipelines</span></label><label><input type="radio" autocomplete="off" name="radio_group_bllhsgvjyi" value=""><span>Only for production</span></label><label><input type="radio" autocomplete="off" name="radio_group_bllhsgvjyi" value=""><span>Post-deployment</span></label>
+<div id="radio_group_wycmoqgtgz" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_group_wycmoqgtgz" value=""><span>During sprint retrospectives</span></label><label><input type="radio" autocomplete="off" name="radio_group_wycmoqgtgz" value=""><span>Post-deployment</span></label><label><input type="radio" autocomplete="off" name="radio_group_wycmoqgtgz" value=""><span>During annual audits</span></label><label><input type="radio" autocomplete="off" name="radio_group_wycmoqgtgz" value=""><span>Only for production</span></label><label><input type="radio" autocomplete="off" name="radio_group_wycmoqgtgz" value="answer"><span>In CI/CD pipelines</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -266,8 +261,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which UDP feature enables 50+ daily deployments at companies like Etsy?</p>
-<div id="radio_group_flyaildeay" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_group_flyaildeay" value=""><span>Manual code reviews</span></label><label><input type="radio" autocomplete="off" name="radio_group_flyaildeay" value=""><span>Cloud cost dashboards</span></label><label><input type="radio" autocomplete="off" name="radio_group_flyaildeay" value="answer"><span>Automated CI/CD pipelines</span></label><label><input type="radio" autocomplete="off" name="radio_group_flyaildeay" value=""><span>Weekly sprint planning</span></label><label><input type="radio" autocomplete="off" name="radio_group_flyaildeay" value=""><span>Blockchain verification</span></label>
+<div id="radio_group_kjwdznstdb" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_group_kjwdznstdb" value=""><span>On-premise servers</span></label><label><input type="radio" autocomplete="off" name="radio_group_kjwdznstdb" value=""><span>Cloud cost dashboards</span></label><label><input type="radio" autocomplete="off" name="radio_group_kjwdznstdb" value=""><span>Manual code reviews</span></label><label><input type="radio" autocomplete="off" name="radio_group_kjwdznstdb" value="answer"><span>Automated CI/CD pipelines</span></label><label><input type="radio" autocomplete="off" name="radio_group_kjwdznstdb" value=""><span>Blockchain verification</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -277,8 +272,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which feature enables developers to co-edit code simultaneously in UDPs?</p>
-<div id="radio_group_ulrjbuaaxo" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_group_ulrjbuaaxo" value=""><span>Snowflake data lakes</span></label><label><input type="radio" autocomplete="off" name="radio_group_ulrjbuaaxo" value=""><span>Kubernetes pods</span></label><label><input type="radio" autocomplete="off" name="radio_group_ulrjbuaaxo" value="answer"><span>VS Code Live Share</span></label><label><input type="radio" autocomplete="off" name="radio_group_ulrjbuaaxo" value=""><span>New Relic alerts</span></label><label><input type="radio" autocomplete="off" name="radio_group_ulrjbuaaxo" value=""><span>Terraform scripts</span></label>
+<div id="radio_group_zfytaeqgka" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_group_zfytaeqgka" value=""><span>Prometheus metrics</span></label><label><input type="radio" autocomplete="off" name="radio_group_zfytaeqgka" value=""><span>Terraform scripts</span></label><label><input type="radio" autocomplete="off" name="radio_group_zfytaeqgka" value=""><span>Git branching</span></label><label><input type="radio" autocomplete="off" name="radio_group_zfytaeqgka" value="answer"><span>VS Code Live Share</span></label><label><input type="radio" autocomplete="off" name="radio_group_zfytaeqgka" value=""><span>Kubernetes pods</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -288,8 +283,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which tool manages end-to-end machine learning pipelines in UDPs?</p>
-<div id="radio_group_hndatlbwox" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_group_hndatlbwox" value="answer"><span>Kubeflow</span></label><label><input type="radio" autocomplete="off" name="radio_group_hndatlbwox" value=""><span>New Relic</span></label><label><input type="radio" autocomplete="off" name="radio_group_hndatlbwox" value=""><span>Jira</span></label><label><input type="radio" autocomplete="off" name="radio_group_hndatlbwox" value=""><span>Snowflake</span></label><label><input type="radio" autocomplete="off" name="radio_group_hndatlbwox" value=""><span>Terraform</span></label>
+<div id="radio_group_fagcsftoxo" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_group_fagcsftoxo" value=""><span>Terraform</span></label><label><input type="radio" autocomplete="off" name="radio_group_fagcsftoxo" value="answer"><span>Kubeflow</span></label><label><input type="radio" autocomplete="off" name="radio_group_fagcsftoxo" value=""><span>GitHub Copilot</span></label><label><input type="radio" autocomplete="off" name="radio_group_fagcsftoxo" value=""><span>New Relic</span></label><label><input type="radio" autocomplete="off" name="radio_group_fagcsftoxo" value=""><span>Snowflake</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -299,8 +294,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which platform enables non-ML experts to build models via drag-and-drop interfaces?</p>
-<div id="radio_group_gchnppugxm" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_group_gchnppugxm" value=""><span>AWS Fargate</span></label><label><input type="radio" autocomplete="off" name="radio_group_gchnppugxm" value=""><span>Azure Repos</span></label><label><input type="radio" autocomplete="off" name="radio_group_gchnppugxm" value=""><span>Prometheus</span></label><label><input type="radio" autocomplete="off" name="radio_group_gchnppugxm" value=""><span>Jaeger</span></label><label><input type="radio" autocomplete="off" name="radio_group_gchnppugxm" value="answer"><span>Google Vertex AI</span></label>
+<div id="radio_group_vetbmasefa" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_group_vetbmasefa" value=""><span>SonarQube</span></label><label><input type="radio" autocomplete="off" name="radio_group_vetbmasefa" value=""><span>Jaeger</span></label><label><input type="radio" autocomplete="off" name="radio_group_vetbmasefa" value=""><span>AWS Fargate</span></label><label><input type="radio" autocomplete="off" name="radio_group_vetbmasefa" value="answer"><span>Google Vertex AI</span></label><label><input type="radio" autocomplete="off" name="radio_group_vetbmasefa" value=""><span>Prometheus</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -310,14 +305,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="further-study-resources" class="level3">
 <h3 class="anchored" data-anchor-id="further-study-resources"><strong>Further Study Resources</strong></h3>
+<p>TODO: Add links</p>
 <ol type="1">
-<li><strong>MLOps Tutorial</strong>: <a href="https://www.kubeflow.org/docs/components/pipelines/">Kubeflow Pipelines Guide</a><br>
-</li>
-<li><strong>Ethical AI Practices</strong>: <a href="https://ai.google/responsibilities/responsible-ai-practices/">Google’s Responsible AI Toolkit</a><br>
-</li>
-<li><strong>AWS SageMaker Lab</strong>: <a href="https://aws.amazon.com/getting-started/hands-on/machine-learning-tutorial/">Build a Bias-Checked ML Model</a><br>
-</li>
-<li><strong>Video Lecture</strong>: <a href="https://www.youtube.com/watch?v=1nkt8I4N1tQ">Introduction to MLOps</a> (Google Cloud Tech)</li>
+<li><strong>MLOps Tutorial</strong>: <a href="https://www.kubeflow.org/docs/components/pipelines/">Kubeflow Pipelines Guide</a></li>
 </ol>
 <!-- **Next**: [Part 3 – Ethics, Security, and Governance in UDPs](#)   -->
 
