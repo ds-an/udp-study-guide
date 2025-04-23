@@ -18,6 +18,7 @@ book:
     - skills.qmd
     - sdlc.qmd
   page-navigation: true
+  repo-url: https://github.com/ds-an/udp-study-guide
 
 bibliography: references.bib
 
@@ -26,8 +27,7 @@ number-depth: 0
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - zephyr
     css: webex.css
     include-after-body: webex.js
   # pdf:
