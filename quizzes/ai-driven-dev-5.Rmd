@@ -1,24 +1,24 @@
 Question
 ========
-Which tool manages end-to-end machine learning pipelines in UDPs?
+What is a key risk of over-automation in AI-driven development?
 
 Answerlist
 ----------
-* Terraform
-* Kubeflow
-* New Relic
-* Jira
-* GitHub Copilot
-* Snowflake
-* VS Code
+* Increased cloud costs
+* Erosion of foundational coding skills
+* Slower deployment cycles
+* Better documentation
+* Improved team communication
+* More secure systems
+* Enhanced user interfaces
 
 Solution
 ========
-Kubeflow specializes in managing Kubernetes-based ML workflows.
+Over-reliance on AI code assistants risks eroding foundational coding skills.
 
 Meta-information
 ================
-exname: MLOps Tools
+exname: Automation Risks
 extype: schoice
 exsolution: 0100000
 exshuffle: 5

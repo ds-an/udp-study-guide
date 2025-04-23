@@ -47,5 +47,10 @@ The Software Development Lifecycle (SDLC) is a structured process that guides th
 exams2forms(c("quizzes/sdlc-2.Rmd", "quizzes/sdlc-3.Rmd", "quizzes/sdlc-4.Rmd"))
 ```
 
-### **Further Study Resources**  
-1. **Continuous Integration and Continuous Deployment (CI/CD)**: [AWS CI/CD Documentation](https://aws.amazon.com/devops/continuous-delivery/)
+### Educational Video
+{{< video https://www.youtube.com/watch?v=5b36UTNRmtI >}}
+
+### **Further Resources**
+1. **SDLC Introduction**: [Splunk Overview](https://www.splunk.com/en_us/blog/learn/software-development-lifecycle-sdlc.html)
+2. **Testing in SDLC**: [Testfyra Blog](https://testfyrablog.medium.com/integrating-testing-across-the-software-development-life-cycle-sdlc-33c770fefba6)
+3. **SDLC Phases**: [Harness.io Guide](https://www.harness.io/blog/software-development-life-cycle)

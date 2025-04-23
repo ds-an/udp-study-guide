@@ -70,8 +70,10 @@ The integrated approach can result in a 35% reduction in deployment times, heigh
 exams2forms(c("quizzes/methodologies-2.Rmd", "quizzes/methodologies-3.Rmd", "quizzes/methodologies-4.Rmd"))
 ```
 
-Further Study Resources
+### Educational Video
+{{< video https://www.youtube.com/watch?v=Hv4QGbvrEio >}}
 
-1.    Agile Development Guides: Explore literature on sprint planning, user story mapping, and retrospective best practices.
-2.   DevOps Best Practices: Refer to tutorials on CI/CD pipelines, container orchestration, and infrastructure automation.
-3.   AI in Software Development: Investigate case studies and documentation on leveraging AI for code assistance and predictive analytics.
+### **Further Resources**
+1. **Gen AI in DevOps**: [AccelQ Blog](https://www.accelq.com/blog/gen-ai-in-devops/)
+2. **AI in DevOps**: [Appinventiv Guide](https://appinventiv.com/blog/ai-in-devops/)
+3. **AI Roles in DevOps**: [Agilemania Breakdown](https://agilemania.com/roles-of-ai-in-devops)

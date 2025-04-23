@@ -1,24 +1,24 @@
 Question
 ========
-Which UDP feature enables 50+ daily deployments at companies like Etsy?
+Which platform enables non-ML experts to build models via drag-and-drop interfaces?
 
 Answerlist
 ----------
-* Manual code reviews
-* Automated CI/CD pipelines
-* On-premise servers
-* Weekly sprint planning
-* Cloud cost dashboards
-* AI model training
-* Blockchain verification
+* AWS Fargate
+* Google Vertex AI
+* Azure Repos
+* GitLab CI
+* Prometheus
+* Jaeger
+* SonarQube
 
 Solution
 ========
-Automated CI/CD pipelines enable frequent deployments by reducing manual intervention.
+Google Vertex AI provides AutoML tools for users without machine learning expertise.
 
 Meta-information
 ================
-exname: CI/CD Acceleration
+exname: AI Democratization
 extype: schoice
 exsolution: 0100000
 exshuffle: 5

@@ -1,24 +1,24 @@
 Question
 ========
-Which platform enables non-ML experts to build models via drag-and-drop interfaces?
+What does vendor agnosticism in UDPs primarily prevent?
 
 Answerlist
 ----------
-* AWS Fargate
-* Google Vertex AI
-* Azure Repos
-* GitLab CI
-* Prometheus
-* Jaeger
-* SonarQube
+* Code errors
+* Cloud provider lock-in
+* Data breaches
+* AI bias
+* Slow performance
+* Complex UIs
+* Test failures
 
 Solution
 ========
-Google Vertex AI provides AutoML tools for users without machine learning expertise.
+Vendor agnosticism prevents cloud provider lock-in while maintaining flexibility.
 
 Meta-information
 ================
-exname: AI Democratization
+exname: Multi-Cloud Strategy
 extype: schoice
 exsolution: 0100000
 exshuffle: 5

@@ -1,4 +1,4 @@
-## **Overview: Unified Development Platforms in Modern Software Development**
+## **Overview: Unified Development Platforms in Modern Software Development** {.unnumbered}
 Let's start with a brief overview of the subject and what we're going to learn in each part of our study guide.
 
 Unified Development Platforms (UDPs) are integrated ecosystems that combine tools, frameworks, and services to streamline software development, enabling collaboration, scalability, and efficiency. In the AI era, UDPs are critical for harnessing machine learning, automation, and cloud-native architectures. This guide equips aspiring developers with foundational knowledge, practical skills, and ethical frameworks to leverage UDPs effectively.

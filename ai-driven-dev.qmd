@@ -40,7 +40,7 @@ Only the top 20% of tests (most relevant) were run immediately. Full test suites
 
 Machine Learning models trained on historical test run data.
 
-Integration with Jenkins, GitHub Actions, and CircleCI.
+Integration with **Jenkins, GitHub Actions, and CircleCI**.
 
 APIs to plug into existing test orchestration tools.
 
@@ -59,24 +59,21 @@ Developers started pushing code more often, increasing deploy frequency by 35%.
 - **Sustainability**: Tools like **Google’s Carbon Sense Suite** optimize energy use in data centers.  
 
 **Risks**:  
-- **Over-Automation**: Over-reliance on AI code assistants (e.g., **GitHub Copilot**) risks eroding foundational coding skills.  
-- **Ethical Debt**: Rapid deployment without governance may entrench biases, as seen in **Amazon’s 2018 recruiting tool**.  
+- **Over-Automation**: Over-reliance on AI code assistants (e.g., **GitHub Copilot**) risks eroding foundational coding skills.  **Ethical Debt**: Rapid deployment without governance may entrench biases, as seen in **Amazon’s 2018 recruiting tool**.  
 - **Vendor Lock-In**: While UPDs tend to reduce the risk of vendor lock-in overall, proprietary platforms like **Salesforce** can limit flexibility compared to open-source alternatives.  
 
-### **Quiz: Part 2**  
-
-TODO: Fix the quizzes, those are for the last part.
+### **Quiz 2**  
 
 ```{r}
 #| echo: false
 #| results: "asis"
-exams2forms(c("quizzes/ai-driven-dev-2.Rmd", "quizzes/ai-driven-dev-3.Rmd", "quizzes/ai-driven-dev-4.Rmd", "quizzes/ai-driven-dev-5.Rmd", "quizzes/ai-driven-dev-6.Rmd"))
+exams2forms(c("quizzes/ai-driven-dev-1.Rmd", "quizzes/ai-driven-dev-2.Rmd", "quizzes/ai-driven-dev-3.Rmd", "quizzes/ai-driven-dev-4.Rmd", "quizzes/ai-driven-dev-5.Rmd", "quizzes/ai-driven-dev-6.Rmd"))
 ```
 
-### **Further Study Resources**  
+### Educational Video
+{{< video https://www.youtube.com/watch?v=jyvmkXj2o-8 >}}
 
-TODO: Add links
-
-1. **MLOps Tutorial**: [Kubeflow Pipelines Guide](https://www.kubeflow.org/docs/components/pipelines/)  
-
-<!-- **Next**: [Part 3 – Ethics, Security, and Governance in UDPs](#)   -->
+### **Further Resources**
+1. **AI and DevOps Integration**: [Transforming Software Development](https://www.eficode.com/transforming-software-development-with-ai-and-devops)
+2. **AI-Driven DevOps**: [Revolutionizing Development](https://epathusa.net/ai-driven-devops-revolutionizing-software-development/)
+3. **AI Meets Agile**: [Future of Development](https://insights.daffodilsw.com/blog/ai-meets-agile-the-future-of-ai-driven-software-development)

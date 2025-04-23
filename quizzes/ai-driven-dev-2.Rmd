@@ -1,24 +1,24 @@
 Question
 ========
-Where should vulnerability detection be implemented in UDP workflows?
+Which tool manages end-to-end machine learning pipelines in UDPs?
 
 Answerlist
 ----------
-* Post-deployment
-* During annual audits
-* In CI/CD pipelines
-* Only for production
-* After breaches occur
-* During sprint retrospectives
-* Before code commits
+* Terraform
+* Kubeflow
+* New Relic
+* Jira
+* GitHub Copilot
+* Snowflake
+* VS Code
 
 Solution
 ========
-Shift-left security embeds vulnerability detection early in CI/CD pipelines.
+Kubeflow specializes in managing Kubernetes-based ML workflows.
 
 Meta-information
 ================
-exname: Shift-Left Security
+exname: MLOps Tools
 extype: schoice
-exsolution: 0010000
+exsolution: 0100000
 exshuffle: 5

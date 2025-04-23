@@ -60,19 +60,19 @@ A hypothetical multinational bank integrated a UDP to streamline its software de
 **Outcome:**  
 The bank not only improved its deployment speed but also strengthened its regulatory compliance, thereby reducing the risk of data breaches and ensuring trust among its customers.
 
-### **Quiz: Ethics, Security, and Governance**
+### **Quiz 3:**
 
 1. Which security measure helps to prevent unauthorized access in UDPs?  
 `r exams2forms::forms_schoice(
-  c("Role-based access control (RBAC)", "Automated code formatting", "Enhanced UI design", "Cloud bursting"), 
-  c(TRUE, FALSE, FALSE, FALSE), 
+  c("Automated code formatting", "Enhanced UI design", "Cloud bursting", "Role-based access control (RBAC)"), 
+  c(FALSE, FALSE, FALSE, TRUE), 
   display = "dropdown"
 )`
 
 2. To support transparency in AI decision-making, organizations should implement:  
 `r exams2forms::forms_schoice(
-  c("Explainable AI techniques", "Static website generators", "Aggressive caching", "Enhanced graphics"), 
-  c(TRUE, FALSE, FALSE, FALSE), 
+  c("Static website generators", "Explainable AI techniques", "Aggressive caching", "Enhanced graphics"), 
+  c(FALSE, TRUE, FALSE, FALSE), 
   display = "dropdown"
 )`
 
@@ -83,12 +83,10 @@ The bank not only improved its deployment speed but also strengthened its regula
   display = "dropdown"
 )`
 
-### **Further Study Resources**
+### Educational Video
+{{< video https://www.youtube.com/watch?v=8hDA_ZUCUwI >}}
 
-TODO: Add links
-
-For additional insights into ethics, security, and governance in UDPs, consider exploring the following topics in your institution’s library or through professional webinars:
-
-- Data protection regulations (e.g., GDPR, HIPAA) and their implementation in tech environments.
-- Best practices for integrating security into CI/CD pipelines.
-- Case studies on the ethical implications of AI in enterprise environments.
+### **Further Resources**
+1. **Information Security Governance**: [EDUCAUSE Overview](https://library.educause.edu/topics/cybersecurity/information-security-governance)
+2. **Security Governance**: [ScienceDirect Guide](https://www.sciencedirect.com/topics/computer-science/security-governance)
+3. **AI Security & Governance**: [Generative AI Considerations](https://www.informationweek.com/responsible-ai/exploring-the-intersection-of-security-governance-and-generative-ai)

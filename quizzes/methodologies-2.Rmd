@@ -1,6 +1,6 @@
 Question
 ========
-Which of the following is a cornerstone practice in DevOps for ensuring rapid feedback and quality assurance?
+Which of the following is a cornerstone practice in DevOps automation?
 
 Answerlist
 ----------

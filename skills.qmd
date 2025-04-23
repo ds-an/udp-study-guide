@@ -68,9 +68,10 @@ In the rapidly evolving landscape of software development, mastering Unified Dev
 
 `r exams2forms::forms_schoice( c("Technical proficiency", "Cross-team communication", "Cloud expertise", "MLOps knowledge"), c(FALSE, TRUE, FALSE, FALSE), display = "dropdown" )`
 
-### **Further Study Resources**  
+### Educational Video
+{{< video https://www.youtube.com/watch?v=vUsm6AfXRt4 >}}
 
-TODO: Add links and video
-
-1. **Terraform Documentation**: [Terraform by HashiCorp](https://www.terraform.io/docs/index.html)
-2. **MLflow Documentation**: [MLflow](https://www.mlflow.org/docs/latest/index.html)
+### **Further Resources**
+1. **Tech Leadership Skills**: [Forbes Council Guide](https://www.forbes.com/councils/forbestechcouncil/2025/03/05/essential-soft-skills-for-tech-leaders-and-why-they-matter/)
+2. **Soft Skills in Tech**: [Keiser University](https://www.keiseruniversity.edu/cultivating-soft-skills-in-tech-a-key-to-success-in-the-technology-sector/)
+3. **Tech Consultant Skills**: [Prosum Article](https://www.prosum.com/2023/08/08/the-top-soft-skills-for-tech-consultants/)

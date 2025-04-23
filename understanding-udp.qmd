@@ -51,9 +51,7 @@ A UDP’s architecture comprises four interconnected layers:
 
 **Outcome**: Deployment cycles can be shortened by 40%, and audit readiness can be improved through automated compliance dashboards.
 
-### **Quiz:**
-
-TODO: FIX THE ISSUE of first TRUE here and in the similar quizzes + the order numbers.
+### **Quiz 1:**
 
 1. How many core principles define UDP architectures?
 
@@ -61,25 +59,25 @@ TODO: FIX THE ISSUE of first TRUE here and in the similar quizzes + the order nu
 
 2. Which platform integrates Git repositories, CI/CD, and Kubernetes orchestration?
 
-`r exams2forms::forms_schoice( c("GitLab", "Terraform", "MLflow", "New Relic"), c(TRUE, FALSE, FALSE, FALSE), display = "dropdown" )`
+`r exams2forms::forms_schoice( c("Terraform", "MLflow", "GitLab", "New Relic"), c(FALSE, FALSE, TRUE, FALSE), display = "dropdown" )`
 
-4. Vendor agnosticism primarily prevents:
+3. Vendor agnosticism primarily prevents:
 
-`r exams2forms::forms_schoice( c("Cloud lock-in", "Code errors", "Data breaches", "AI bias"), c(TRUE, FALSE, FALSE, FALSE), display = "dropdown" )`
+`r exams2forms::forms_schoice( c("Code errors", "Cloud lock-in", "Data breaches", "AI bias"), c(FALSE, TRUE, FALSE, FALSE), display = "dropdown" )`
 
-5. The main purpose of Terraform is:
+4. The main purpose of Terraform is:
 
 `r exams2forms::forms_schoice( c("Infrastructure as Code", "ML model training", "Performance monitoring", "Code editing"), c(TRUE, FALSE, FALSE, FALSE), display = "dropdown" )`
 
-7. Shift-left security means detecting vulnerabilities early (True/False)
+5. Shift-left security means detecting vulnerabilities early (True/False)
 
 `r exams2forms::forms_schoice( c("True", "False"), c(TRUE, FALSE), display = "dropdown" )`
 
-9. Azure DevOps achieved what percentage reduction in deployment cycles?
+6. Azure DevOps achieved what percentage reduction in deployment cycles?
 
 `r exams2forms::forms_num(40)`
 
-10. New Relic's core capability is:
+7. New Relic's core capability is:
 
 `r exams2forms::forms_schoice( c("Performance monitoring", "Version control", "CI/CD pipelines", "Data storage"), c(TRUE, FALSE, FALSE, FALSE), display = "dropdown" )`
 

@@ -8,7 +8,7 @@ book:
     - "Bogdan Zachepa"
     - "Vladimir Keller"
     - "Roza Bass"
-  date: "4/16/2025"
+  date: "4/23/2025"
   chapters:
     - index.qmd
     - understanding-udp.qmd
@@ -17,6 +17,7 @@ book:
     - methodologies.qmd
     - skills.qmd
     - sdlc.qmd
+    - summary.qmd
   page-navigation: true
   repo-url: https://github.com/ds-an/udp-study-guide
 
