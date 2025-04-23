@@ -83,7 +83,7 @@ The bank not only improved its deployment speed but also strengthened its regula
   display = "dropdown"
 )`
 
-### Educational Video
+### **Educational Video**
 {{< video https://www.youtube.com/watch?v=8hDA_ZUCUwI >}}
 
 ### **Further Resources**

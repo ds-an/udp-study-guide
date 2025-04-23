@@ -47,7 +47,7 @@ The Software Development Lifecycle (SDLC) is a structured process that guides th
 exams2forms(c("quizzes/sdlc-2.Rmd", "quizzes/sdlc-3.Rmd", "quizzes/sdlc-4.Rmd"))
 ```
 
-### Educational Video
+### **Educational Video**
 {{< video https://www.youtube.com/watch?v=5b36UTNRmtI >}}
 
 ### **Further Resources**

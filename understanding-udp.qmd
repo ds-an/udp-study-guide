@@ -87,7 +87,7 @@ A UDP’s architecture comprises four interconnected layers:
 <!-- In total_correct() : -->
 <!--   The function webexercises::total_correct() is deprecated. Use sections with the class 'webex-check' to set up self-checking mini-quizzes with total correct. -->
 
-### Educational Video
+### **Educational Video**
 
 {{< video https://www.youtube.com/watch?v=scEDHsr3APg >}}
 

@@ -70,7 +70,7 @@ The integrated approach can result in a 35% reduction in deployment times, heigh
 exams2forms(c("quizzes/methodologies-2.Rmd", "quizzes/methodologies-3.Rmd", "quizzes/methodologies-4.Rmd"))
 ```
 
-### Educational Video
+### **Educational Video**
 {{< video https://www.youtube.com/watch?v=Hv4QGbvrEio >}}
 
 ### **Further Resources**

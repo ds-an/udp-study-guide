@@ -70,7 +70,7 @@ Developers started pushing code more often, increasing deploy frequency by 35%.
 exams2forms(c("quizzes/ai-driven-dev-1.Rmd", "quizzes/ai-driven-dev-2.Rmd", "quizzes/ai-driven-dev-3.Rmd", "quizzes/ai-driven-dev-4.Rmd", "quizzes/ai-driven-dev-5.Rmd", "quizzes/ai-driven-dev-6.Rmd"))
 ```
 
-### Educational Video
+### **Educational Video**
 {{< video https://www.youtube.com/watch?v=jyvmkXj2o-8 >}}
 
 ### **Further Resources**

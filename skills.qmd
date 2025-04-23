@@ -68,7 +68,7 @@ In the rapidly evolving landscape of software development, mastering Unified Dev
 
 `r exams2forms::forms_schoice( c("Technical proficiency", "Cross-team communication", "Cloud expertise", "MLOps knowledge"), c(FALSE, TRUE, FALSE, FALSE), display = "dropdown" )`
 
-### Educational Video
+### **Educational Video**
 {{< video https://www.youtube.com/watch?v=vUsm6AfXRt4 >}}
 
 ### **Further Resources**
