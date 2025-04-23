@@ -19,20 +19,38 @@ UDPs break down silos by integrating tools for developers, data scientists, and 
 #### **3. AI/ML Workflow Integration**  
 Modern UDPs embed **MLOps frameworks** like **Kubeflow** and **Azure Machine Learning** to manage end-to-end ML pipelines. **Google Vertex AI** democratizes AI with drag-and-drop AutoML tools, enabling developers without ML expertise to build models. DataOps platforms like **Snowflake** synchronize data engineering with model training, ensuring reproducibility and scalability.  
 
-#### **4. Ethical AI and Governance**  
-Ethical risks in AI, such as bias and privacy violations, are mitigated through tools like **IBM AI Fairness 360**, which integrates fairness metrics into CI/CD pipelines. Platforms like **Salesforce** automate GDPR compliance via data anonymization and consent management. Transparency is enforced through audit trails in **MLflow** and model cards documenting limitations.  
+#### **4. Governance**  
+Platforms like **Salesforce** automate GDPR compliance via data anonymization and consent management. Transparency is enforced through audit trails in **MLflow** and model cards documenting limitations.  
 
-### **Case Study: Philips HealthSuite in Healthcare AI**  
-**Background**: Philips aimed to improve stroke diagnosis times while ensuring HIPAA compliance and data security.  
+### **Example: Launchable for AI-Optimized CI Test Execution**  
 
-**Solution**:  
-- Deployed **Philips HealthSuite**, a UDP unifying IoT device data, electronic health records (EHRs), and AI diagnostics.  
-- Integrated **TensorFlow** models for real-time stroke detection, trained on anonymized patient data.  
-- Used **AWS IoT Core** and **Azure Kubernetes Service (AKS)** to manage edge-device communication and scalable deployments.  
+**Background**:
+A mid-size tech company was experiencing long feedback loops in their CI/CD pipeline. Developers had to wait over 40 minutes for test suites to finish, which slowed down the release process and decreased morale.
 
-**Outcome**:  
-- Reduced diagnosis time by 30% through AI-driven analysis.  
-- Maintained HIPAA compliance via end-to-end encryption and automated audit logs.  
+**Solution**:
+They integrated Launchable, a startup offering AI-powered test selection for CI pipelines. Here's how it worked:
+
+The system analyzed thousands of past test runs to learn patterns in test failures.
+
+For each new pull request, Launchable predicted which tests were most likely to fail.
+
+Only the top 20% of tests (most relevant) were run immediately. Full test suites were run overnight or pre-release.
+
+**Technologies Used**:
+
+Machine Learning models trained on historical test run data.
+
+Integration with Jenkins, GitHub Actions, and CircleCI.
+
+APIs to plug into existing test orchestration tools.
+
+**Outcome**:
+
+CI feedback time was reduced from 40 minutes to 8 minutes.
+
+Test reliability remained at 99%, even with partial runs.
+
+Developers started pushing code more often, increasing deploy frequency by 35%.
 
 ### **Critical Analysis: Opportunities and Risks**  
 **Opportunities**:  
@@ -43,19 +61,22 @@ Ethical risks in AI, such as bias and privacy violations, are mitigated through 
 **Risks**:  
 - **Over-Automation**: Over-reliance on AI code assistants (e.g., **GitHub Copilot**) risks eroding foundational coding skills.  
 - **Ethical Debt**: Rapid deployment without governance may entrench biases, as seen in **Amazon’s 2018 recruiting tool**.  
-- **Vendor Lock-In**: Proprietary platforms like **Salesforce** can limit flexibility compared to open-source alternatives.  
+- **Vendor Lock-In**: While UPDs tend to reduce the risk of vendor lock-in overall, proprietary platforms like **Salesforce** can limit flexibility compared to open-source alternatives.  
 
 ### **Quiz: Part 2**  
+
+TODO: Fix the quizzes, those are for the last part.
+
 ```{r}
 #| echo: false
 #| results: "asis"
-exams2forms(c("quizzes/ai-driven-dev-1.Rmd", "quizzes/ai-driven-dev-2.Rmd", "quizzes/ai-driven-dev-3.Rmd", "quizzes/ai-driven-dev-4.Rmd", "quizzes/ai-driven-dev-5.Rmd", "quizzes/ai-driven-dev-6.Rmd"))
+exams2forms(c("quizzes/ai-driven-dev-2.Rmd", "quizzes/ai-driven-dev-3.Rmd", "quizzes/ai-driven-dev-4.Rmd", "quizzes/ai-driven-dev-5.Rmd", "quizzes/ai-driven-dev-6.Rmd"))
 ```
 
 ### **Further Study Resources**  
+
+TODO: Add links
+
 1. **MLOps Tutorial**: [Kubeflow Pipelines Guide](https://www.kubeflow.org/docs/components/pipelines/)  
-2. **Ethical AI Practices**: [Google’s Responsible AI Toolkit](https://ai.google/responsibilities/responsible-ai-practices/)  
-3. **AWS SageMaker Lab**: [Build a Bias-Checked ML Model](https://aws.amazon.com/getting-started/hands-on/machine-learning-tutorial/)  
-4. **Video Lecture**: [Introduction to MLOps](https://www.youtube.com/watch?v=1nkt8I4N1tQ) (Google Cloud Tech)  
 
 <!-- **Next**: [Part 3 – Ethics, Security, and Governance in UDPs](#)   -->

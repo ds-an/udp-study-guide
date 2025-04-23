@@ -40,7 +40,7 @@ In the rapidly evolving landscape of software development, mastering Unified Dev
 5. **Team Collaboration**  
    Working effectively in teams is crucial for success in UDP environments. Developers should be able to collaborate on projects, share knowledge, and contribute to a positive team culture.
 
-### **Case Study: Debugging Distributed Systems**  
+### **Example: Debugging Distributed Systems**  
 **Background**: A software development team faced challenges in debugging a microservices architecture that was experiencing latency issues.  
 
 **Solution**: The team implemented a structured approach to problem-solving:  
@@ -48,7 +48,7 @@ In the rapidly evolving landscape of software development, mastering Unified Dev
 - **Observability Tools**: They integrated **Jaeger** for distributed tracing, allowing them to visualize request flows and identify bottlenecks.  
 - **Iterative Testing**: The team adopted CI/CD practices to automate testing and deployment, enabling rapid iterations and feedback loops.  
 
-**Outcome**: The team reduced latency by 30% and improved overall system reliability through enhanced collaboration and observability.
+**Outcome**: The team reduced latency can be reduced by 30% and improved overall system reliability through enhanced collaboration and observability.
 
 ### **Quiz:**  
 
@@ -69,7 +69,8 @@ In the rapidly evolving landscape of software development, mastering Unified Dev
 `r exams2forms::forms_schoice( c("Technical proficiency", "Cross-team communication", "Cloud expertise", "MLOps knowledge"), c(FALSE, TRUE, FALSE, FALSE), display = "dropdown" )`
 
 ### **Further Study Resources**  
-1. **AWS Training and Certification**: [AWS Training](https://aws.amazon.com/training/)
-2. **Microsoft Learn for Azure**: [Microsoft Learn](https://learn.microsoft.com/en-us/training/azure/)
-3. **Terraform Documentation**: [Terraform by HashiCorp](https://www.terraform.io/docs/index.html)
-4. **MLflow Documentation**: [MLflow](https://www.mlflow.org/docs/latest/index.html)
+
+TODO: Add links and video
+
+1. **Terraform Documentation**: [Terraform by HashiCorp](https://www.terraform.io/docs/index.html)
+2. **MLflow Documentation**: [MLflow](https://www.mlflow.org/docs/latest/index.html)
