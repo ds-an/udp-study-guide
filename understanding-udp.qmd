@@ -89,10 +89,13 @@ TODO: FIX THE ISSUE of first TRUE here and in the similar quizzes + the order nu
 <!-- In total_correct() : -->
 <!--   The function webexercises::total_correct() is deprecated. Use sections with the class 'webex-check' to set up self-checking mini-quizzes with total correct. -->
 
-### **Further Study Resources**  
+### Educational Video
+
+{{< video https://www.youtube.com/watch?v=scEDHsr3APg >}}
+
+### **Further Resources**  
 1. **GitLab CI/CD Tutorial**: [GitLab CI/CD Documentation](https://docs.gitlab.com/ee/ci/)  
 2. **Introduction to Terraform**: [HashiCorp Learn Guides](https://learn.hashicorp.com/terraform)  
 3. **Azure DevOps Training**: [Microsoft Learn Module](https://learn.microsoft.com/en-us/azure/devops/)  
-4. **Video Lecture**: [CI/CD Pipelines Explained](https://www.youtube.com/watch?v=scEDHsr3APg)  
 
 <!-- **Next**: [Part 2 – AI Integration and Ethical Considerations in UDPs](ai-driven-dev.qmd) -->
