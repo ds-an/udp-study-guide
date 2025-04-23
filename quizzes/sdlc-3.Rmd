@@ -1,0 +1,22 @@
+Question
+========
+Which tool is commonly used for version control in software development?
+
+Answerlist
+----------
+* Git
+* Docker
+* Jenkins
+* Selenium
+* Kubernetes
+
+Solution
+========
+Git is a widely used version control system that helps developers track changes in their code and collaborate with others.
+
+Meta-information
+================
+exname: Version Control Tool
+extype: schoice
+exsolution: 10000
+exshuffle: 5

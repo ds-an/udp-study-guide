@@ -1,0 +1,22 @@
+Question
+========
+What is the primary purpose of Continuous Integration (CI) in the SDLC?
+
+Answerlist
+----------
+* To automate testing and integration of code changes
+* To gather requirements from stakeholders
+* To design the system architecture
+* To deploy applications to production
+* To monitor application performance
+
+Solution
+========
+Continuous Integration (CI) automates the testing and integration of code changes, ensuring that new code integrates smoothly with the existing codebase.
+
+Meta-information
+================
+exname: Continuous Integration Purpose
+extype: schoice
+exsolution: 10000
+exshuffle: 5

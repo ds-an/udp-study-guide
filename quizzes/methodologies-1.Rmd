@@ -1,0 +1,24 @@
+Question
+========
+Which Agile event is used to synchronize team progress in an iterative development process?
+
+Answerlist
+----------
+* Daily stand-up
+* Sprint planning meeting
+* Sprint retrospective
+* Backlog grooming session
+* Code review session
+* Continuous integration checkpoint
+* Deployment notification
+
+Solution
+========
+Daily stand-up is a fundamental Agile event that allows the team to quickly share progress and align on the day's objectives.
+
+Meta-information
+================
+exname: Agile Synchronization
+extype: schoice
+exsolution: 1000000
+exshuffle: 5

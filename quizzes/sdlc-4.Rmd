@@ -1,0 +1,22 @@
+Question
+========
+What is the main benefit of using automated testing in the SDLC?
+
+Answerlist
+----------
+* Reduces manual testing efforts
+* Increases deployment speed
+* Enhances user interface design
+* Improves requirement gathering
+* Simplifies project management
+
+Solution
+========
+Automated testing reduces manual testing efforts, allowing teams to quickly identify and fix defects, thus improving overall software quality.
+
+Meta-information
+================
+exname: Benefits of Automated Testing
+extype: schoice
+exsolution: 10000
+exshuffle: 5

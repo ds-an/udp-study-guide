@@ -1,0 +1,24 @@
+Question
+========
+Which of the following is a cornerstone practice in DevOps for ensuring rapid feedback and quality assurance?
+
+Answerlist
+----------
+* Manual code integration
+* Continuous integration
+* Traditional waterfall processes
+* Infrequent, scheduled releases
+* Isolated operational teams
+* Unstructured testing routines
+* Manual deployment
+
+Solution
+========
+Continuous integration is a core DevOps practice that automatically tests and integrates code changes, quickly identifying issues.
+
+Meta-information
+================
+exname: DevOps Continuous Integration
+extype: schoice
+exsolution: 0100000
+exshuffle: 5
