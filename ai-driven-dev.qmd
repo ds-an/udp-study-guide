@@ -49,7 +49,7 @@ Ethical risks in AI, such as bias and privacy violations, are mitigated through 
 ```{r}
 #| echo: false
 #| results: "asis"
-exams2forms(c("quizzes/part-2-1.Rmd", "quizzes/part-2-2.Rmd", "quizzes/part-2-3.Rmd", "quizzes/part-2-4.Rmd", "quizzes/part-2-5.Rmd", "quizzes/part-2-6.Rmd"))
+exams2forms(c("quizzes/ai-driven-dev-1.Rmd", "quizzes/ai-driven-dev-2.Rmd", "quizzes/ai-driven-dev-3.Rmd", "quizzes/ai-driven-dev-4.Rmd", "quizzes/ai-driven-dev-5.Rmd", "quizzes/ai-driven-dev-6.Rmd"))
 ```
 
 ### **Further Study Resources**  

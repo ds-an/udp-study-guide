@@ -1,0 +1,22 @@
+Question
+========
+Which phase of the SDLC focuses on monitoring application performance after deployment?
+
+Answerlist
+----------
+* Requirements Gathering
+* Design
+* Development
+* Testing
+* Monitoring and Maintenance
+
+Solution
+========
+The Monitoring and Maintenance phase focuses on monitoring application performance after deployment, ensuring that the application runs smoothly and efficiently.
+
+Meta-information
+================
+exname: Monitoring Phase
+extype: schoice
+exsolution: 10000
+exshuffle: 5

@@ -1,0 +1,24 @@
+Question
+========
+Which AI tool is designed to provide intelligent code assistance during development?
+
+Answerlist
+----------
+* GitHub Copilot
+* Slack
+* Jenkins
+* Docker
+* Terraform
+* Kubernetes
+* Apache Airflow
+
+Solution
+========
+GitHub Copilot leverages AI to offer smart code suggestions, helping developers write code more efficiently.
+
+Meta-information
+================
+exname: AI Code Assistance
+extype: schoice
+exsolution: 1000000
+exshuffle: 5
