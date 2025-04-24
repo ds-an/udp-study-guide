@@ -40,7 +40,7 @@ The Software Development Lifecycle (SDLC) is a structured process that guides th
 
 **Outcome**: The company can reduce its time-to-market by 50% and improved compliance through automated testing and monitoring.
 
-### **Quiz:**  
+### **Quiz 6:**  
 ```{r}
 #| echo: false
 #| results: "asis"

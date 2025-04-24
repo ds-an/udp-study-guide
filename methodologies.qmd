@@ -63,7 +63,7 @@ A burgeoning tech startup adopted a UDP to overcome scalability challenges and r
 **Outcome:**  
 The integrated approach can result in a 35% reduction in deployment times, heightened team productivity, and improved product quality, driving accelerated market growth.
 
-### **Quiz: Methodologies**  
+### **Quiz 4:**  
 ```{r}
 #| echo: false
 #| results: "asis"

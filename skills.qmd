@@ -50,7 +50,7 @@ In the rapidly evolving landscape of software development, mastering Unified Dev
 
 **Outcome**: The team reduced latency can be reduced by 30% and improved overall system reliability through enhanced collaboration and observability.
 
-### **Quiz:**  
+### **Quiz 5:**  
 
 1. Which cloud platform is NOT mentioned as essential for UDP mastery?
 
