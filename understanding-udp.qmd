@@ -81,12 +81,6 @@ A UDP’s architecture comprises four interconnected layers:
 
 `r exams2forms::forms_schoice( c("Performance monitoring", "Version control", "CI/CD pipelines", "Data storage"), c(TRUE, FALSE, FALSE, FALSE), display = "dropdown" )`
 
-<!-- **Final Grade**:    -->
-
-<!-- Warning message: -->
-<!-- In total_correct() : -->
-<!--   The function webexercises::total_correct() is deprecated. Use sections with the class 'webex-check' to set up self-checking mini-quizzes with total correct. -->
-
 ### **Educational Video**
 
 {{< video https://www.youtube.com/watch?v=scEDHsr3APg >}}
