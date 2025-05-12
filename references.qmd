@@ -1,11 +1,83 @@
----
-nocite: |
-  @*
----
-
 ### **References** {.unnumbered}
 
-References:
+[1] S. Pajka, “A Love-Hate Relationship with AI-Assisted Programming: Reflection on GitHub Copilot,” Medium. Accessed: May 05, 2025. [Online]. Available: [  https://medium.com/@szympajka/a-love-hate-relationship-with-ai-assisted-programming-reflection-on-github-copilot-2f3d98eb6088 ](https://medium.com/@szympajka/a-love-hate-relationship-with-ai-assisted-programming-reflection-on-github-copilot-2f3d98eb6088 )
 
-::: {#refs}
-:::
+[2] “Why Copilot is Making Programmers Worse at Programming.” Accessed: May 05, 2025. [Online]. Available: [  https://www.darrenhorrocks.co.uk/why-copilot-making-programmers-worse-at-programming/ ](https://www.darrenhorrocks.co.uk/why-copilot-making-programmers-worse-at-programming/ )
+
+[3] J. Dastin, “Insight - Amazon scraps secret AI recruiting tool that showed bias against women,” Reuters, Oct. 11, 2018. Accessed: May 05, 2025. [Online]. Available: [  https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/ ](https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/ )
+
+[4] “Building with Multiple AI Models: A Guide to Unified Platforms.” Accessed: May 05, 2025. [Online]. Available: [  https://www.promptkit.tools/blog/unified-ai-platform-guide ](https://www.promptkit.tools/blog/unified-ai-platform-guide )
+
+[5] “Empowering Citizen Developers and Professional Developers with Unified Application Development Platforms (UDP).” Accessed: May 05, 2025. [Online]. Available: [  https://www.linkedin.com/pulse/empowering-citizen-developers-professional-unified-platforms-singh ](https://www.linkedin.com/pulse/empowering-citizen-developers-professional-unified-platforms-singh )
+
+[6] “13 Ethical AI Companies Leading the Way in Responsible Innovation.” Accessed: May 05, 2025. [Online]. Available: [  https://www.multimodal.dev/ethical-ai-companies ](https://www.multimodal.dev/ethical-ai-companies )
+
+[7] S. Savarese, “AI Models Are a Dime a Dozen: How Businesses Win By Moving Beyond the Hype with a Deeply Unified Platform,” Salesforce. Accessed: May 05, 2025. [Online]. Available: [  https://www.salesforce.com/news/stories/unified-platform-unlocks-ai/ ](https://www.salesforce.com/news/stories/unified-platform-unlocks-ai/ )
+
+[8] “SonarQube explained,” isecjobs.com. Accessed: May 05, 2025. [Online]. Available: [  https://isecjobs.com/insights/sonarqube-explained/ ](https://isecjobs.com/insights/sonarqube-explained/ )
+
+[9] “Automate Your Deployment Using Azure DevOps CI CD Pipeline in 30 minutes | by Mohammad Abu Humaidan | Medium.” Accessed: May 05, 2025. [Online]. Available: [  https://medium.com/@abu7midan/automateyour-deployment-using-azure-devops-ci-cd-pipeline-in-13-minutes-a091372d74d9 ](https://medium.com/@abu7midan/automateyour-deployment-using-azure-devops-ci-cd-pipeline-in-13-minutes-a091372d74d9 )
+
+[10] kromerm, “Automate continuous integration - Azure Data Factory.” Accessed: May 05, 2025. [Online]. Available: [  https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-automate-azure-pipelines ](https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-automate-azure-pipelines )
+
+[11] “Agile workflow in Azure Boards - Azure Boards | Microsoft Learn.” Accessed: May 05, 2025. [Online]. Available: [  https://learn.microsoft.com/en-us/azure/devops/boards/work-items/guidance/agile-process-workflow?view=azure-devops ](https://learn.microsoft.com/en-us/azure/devops/boards/work-items/guidance/agile-process-workflow?view=azure-devops )
+
+[12] chcomley, “Key concepts for Sprints and Scrum tools in Azure Boards - Azure Boards.” Accessed: May 05, 2025. [Online]. Available: [  https://learn.microsoft.com/en-us/azure/devops/boards/sprints/scrum-key-concepts?view=azure-devops ](https://learn.microsoft.com/en-us/azure/devops/boards/sprints/scrum-key-concepts?view=azure-devops )
+
+[13] “Version Control with Git in Azure Repos | AZ400-DesigningandImplementingMicrosoftDevOpsSolutions.” Accessed: May 05, 2025. [Online]. Available: [  https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/AZ400_M01_L02_Version_Control_with_Git_in_Azure_Repos.html ](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/AZ400_M01_L02_Version_Control_with_Git_in_Azure_Repos.html )
+
+[14] P. Villadsen, “The Unified Development Environment is GA!,” Power Platform Developer Blog. Accessed: May 05, 2025. [Online]. Available: [  https://devblogs.microsoft.com/powerplatform/the-unified-development-environment-is-ga/ ](https://devblogs.microsoft.com/powerplatform/the-unified-development-environment-is-ga/ )
+
+[15] “The future of quality assurance: Shift-left testing with QyrusAI and Amazon Bedrock | AWS Machine Learning Blog.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://aws.amazon.com/blogs/machine-learning/the-future-of-quality-assurance-shift-left-testing-with-qyrusai-and-amazon-bedrock/ ](https://aws.amazon.com/blogs/machine-learning/the-future-of-quality-assurance-shift-left-testing-with-qyrusai-and-amazon-bedrock/ )
+
+[16] A. Ulagaratchagan, “Introducing Microsoft Fabric: The data platform for the era of AI | Microsoft Azure Blog | Microsoft Azure,” Microsoft Azure Blog. Accessed: Apr. 30, 2025. [Online]. Available: [  https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/ ](https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/ )
+
+[17] “Best AI-Powered IDEs and Coding Assistants in 2025.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://www.scrumlaunch.com/blog/best-ai-powered-ides-and-coding-assistants-2025 ](https://www.scrumlaunch.com/blog/best-ai-powered-ides-and-coding-assistants-2025 )
+
+[18] “Infrastructure as Code Predictions for 2025.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://terramate.io/rethinking-iac/infrastructure-as-code-predictions-for-2025/ ](https://terramate.io/rethinking-iac/infrastructure-as-code-predictions-for-2025/ )
+
+[19] “CI/CD Process: Flow, Stages, and Critical Best Practices,” Codefresh. Accessed: Apr. 30, 2025. [Online]. Available: [  https://codefresh.io/learn/ci-cd-pipelines/ci-cd-process-flow-stages-and-critical-best-practices/ ](https://codefresh.io/learn/ci-cd-pipelines/ci-cd-process-flow-stages-and-critical-best-practices/ )
+
+[20] giannit, “What a Unified Platform Means For DevOps,” JFrog. Accessed: Apr. 30, 2025. [Online]. Available: [  https://jfrog.com/blog/why-a-unified-devops-platform-matters/ ](https://jfrog.com/blog/why-a-unified-devops-platform-matters/ )
+
+[21] “What is User centered design (UCD)?,” GeeksforGeeks. Accessed: Apr. 30, 2025. [Online]. Available: [  https://www.geeksforgeeks.org/introduction-to-ucd-user-centered-design/ ](https://www.geeksforgeeks.org/introduction-to-ucd-user-centered-design/ )
+
+[22] G. link, Facebook, X, Pinterest, Email, and O. Apps, “The Sprint Iteration Process: Accelerating Product Development in Agile Frameworks.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://blog.sprintstudio.dev/2024/04/the-sprint-iteration-process.html ](https://blog.sprintstudio.dev/2024/04/the-sprint-iteration-process.html )
+
+[23] “Agile Unified Process - Methodology & Best Practices [2025].” Accessed: Apr. 30, 2025. [Online]. Available: [  https://brisktechsol.com/agile-unified-process/ ](https://brisktechsol.com/agile-unified-process/ )
+
+[24] Kamran, “Why IT Leaders Are Shifting from Frameworks to Platform,” PhoenixDX. Accessed: Apr. 30, 2025. [Online]. Available: [  https://phoenix-dx.com/digital-transformation-it-leaders-shift-frameworks-platforms/ ](https://phoenix-dx.com/digital-transformation-it-leaders-shift-frameworks-platforms/ )
+
+[25] “Unified Vulnerability Management: How It Works & Benefits.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://www.sentinelone.com/cybersecurity-101/cybersecurity/unified-vulnerability-management/ ](https://www.sentinelone.com/cybersecurity-101/cybersecurity/unified-vulnerability-management/ )
+
+[26] “Securing Generative AI Platforms | IBM.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://www.ibm.com/think/insights/securing-generative-ai-platforms-leveraging-ai-cybersecurity ](https://www.ibm.com/think/insights/securing-generative-ai-platforms-leveraging-ai-cybersecurity )
+
+[27] S. A. Rana, Z. H. Azizul, and A. A. Awan, “A step toward building a unified framework for managing AI bias,” PeerJ Comput Sci, vol. 9, p. e1630, Oct. 2023, doi: 10.7717/peerj-cs.1630.
+
+[28] S. Raja, “Why a Unified Data Platform makes tremendous sense,” Infoveave. Accessed: Apr. 30, 2025. [Online]. Available: [  https://medium.com/infoveave/why-a-unified-data-platform-makes-tremendous-sense-73595beaf502 ](https://medium.com/infoveave/why-a-unified-data-platform-makes-tremendous-sense-73595beaf502 )
+
+[29] “5 Top SDLC Methodologies: Choosing The Right One in 2024.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://www.netguru.com/blog/sdlc-methodologies ](https://www.netguru.com/blog/sdlc-methodologies )
+
+[30] “Software Development Life Cycle (SDLC),” GeeksforGeeks. Accessed: Apr. 30, 2025. [Online]. Available: [  https://www.geeksforgeeks.org/software-development-life-cycle-sdlc/ ](https://www.geeksforgeeks.org/software-development-life-cycle-sdlc/ )
+
+[31] “23 In-Demand Full Stack Developer Skills in 2025,” Simplilearn.com. Accessed: Apr. 30, 2025. [Online]. Available: [  https://www.simplilearn.com/skills-required-to-become-a-full-stack-developer-article ](https://www.simplilearn.com/skills-required-to-become-a-full-stack-developer-article )
+
+[32] M. Vizard, “CircleCI Extends CI/CD Reach to Windows Platforms,” DevOps.com. Accessed: Apr. 30, 2025. [Online]. Available: [  https://devops.com/circleci-extends-ci-cd-reach-to-windows-platforms/ ](https://devops.com/circleci-extends-ci-cd-reach-to-windows-platforms/ )
+
+[33] “Building a CI Pipeline with Databricks dbx Tool and GitLab | HackerNoon.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://hackernoon.com/building-a-ci-pipeline-with-databricks-dbx-tool-and-gitlab ](https://hackernoon.com/building-a-ci-pipeline-with-databricks-dbx-tool-and-gitlab )
+
+[34] “What is Jenkins and How Does It Work? | Definition from TechTarget.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://www.techtarget.com/searchsoftwarequality/definition/Jenkins ](https://www.techtarget.com/searchsoftwarequality/definition/Jenkins )
+
+[35] “Artificial intelligence - Machine Learning, Robotics, Algorithms | Britannica.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://www.britannica.com/technology/artificial-intelligence/Methods-and-goals-in-AI ](https://www.britannica.com/technology/artificial-intelligence/Methods-and-goals-in-AI )
+
+[36] “What is Kubeflow and how can it be used? | Google Cloud.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://cloud.google.com/discover/what-is-kubeflow ](https://cloud.google.com/discover/what-is-kubeflow )
+
+[37] O. Tioluwani, “Address Common Machine Learning Challenges With Managed MLflow,” The New Stack. Accessed: Apr. 30, 2025. [Online]. Available: [  https://thenewstack.io/address-common-machine-learning-challenges-with-managed-mlflow/ ](https://thenewstack.io/address-common-machine-learning-challenges-with-managed-mlflow/ )
+
+[38] “AWS CloudFormation: 2024 Year in Review | AWS DevOps & Developer Productivity Blog.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://aws.amazon.com/blogs/devops/aws-cloudformation-2024-year-in-review/ ](https://aws.amazon.com/blogs/devops/aws-cloudformation-2024-year-in-review/ )
+
+[39] “These Terraform/OpenTofu Tools Promise to Manage Your Infrastructure Tasks Effectively | HackerNoon.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://hackernoon.com/these-terraformopentofu-tools-promise-to-manage-your-infrastructure-tasks-effectively ](https://hackernoon.com/these-terraformopentofu-tools-promise-to-manage-your-infrastructure-tasks-effectively )
+
+[40] T. Plumb, “Google Cloud intros AI security agents, unified security platform to consolidate ops, triage, threat intel,” VentureBeat. Accessed: Apr. 30, 2025. [Online]. Available: [  https://venturebeat.com/security/google-cloud-intros-ai-security-agents-unified-security-platform-to-consolidate-ops-triage-threat-intel/ ](https://venturebeat.com/security/google-cloud-intros-ai-security-agents-unified-security-platform-to-consolidate-ops-triage-threat-intel/ )
+
+[41] “Collaborate and build faster with Amazon SageMaker Unified Studio, now generally available | AWS News Blog.” Accessed: Apr. 30, 2025. [Online]. Available: [  https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available/ ](https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available/ )
